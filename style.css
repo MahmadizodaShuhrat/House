@@ -1,0 +1,354 @@
+    .bos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    
+    .text {
+        display: flex;
+        width: 30%;
+        color: #598D66;
+    }
+    
+    .text img {
+        margin-top: 11px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .text p {
+        margin-left: 5px;
+    }
+    
+    .text1 {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+    }
+    
+    .box {
+        width: 25px;
+        height: 25px;
+        margin-top: 14px;
+    }
+    
+    .menu1 {
+        width: 0;
+    }
+    
+    @media(max-width: 500px) {
+        .text1 p {
+            font-size: 0px;
+        }
+        .text {
+            width: 100%;
+            font-size: 30px;
+            margin: auto;
+        }
+        .text img {
+            width: 40px;
+            height: 40px;
+            margin-left: -5px;
+            padding-top: 15px;
+        }
+        .bos {
+            flex-wrap: wrap;
+        }
+        .menu1 {
+            width: 25px;
+            height: 25px;
+            margin-right: 300px;
+        }
+        .text1 {
+            display: flex;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+            position: relative;
+            left: -75px;
+        }
+    }
+    
+    .bos1 {
+        width: 95%;
+        display: flex;
+        margin: auto;
+    }
+    
+    .text2 img {
+        width: 500px;
+        height: 500px;
+    }
+    
+    .text3 {
+        width: 41%;
+        height: 290px;
+        margin-top: 50px;
+    }
+    
+    .text3 button {
+        width: 200px;
+        height: 42px;
+        color: #598D66;
+    }
+    
+    .text3 h1 {
+        font-size: 60px;
+    }
+    
+    @media(max-width: 500px) {
+        .bos1 img {
+            width: 0;
+        }
+        .bos1 h1 {
+            font-size: 25px;
+        }
+        .bos1 p {
+            font-size: 10px;
+        }
+        .bos1 {
+            margin-left: 40px;
+        }
+    }
+    
+    .bos2 {
+        margin: auto;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box1 {
+        display: flex;
+    }
+    
+    .text4 {
+        width: 65%;
+    }
+    
+    .text5 {
+        background-color: #376B44;
+        width: 10%;
+        text-align: center;
+        border-radius: 60px;
+        margin-top: 25px;
+        padding-top: 8px;
+        color: white;
+    }
+    
+    .text6 {
+        background-color: #D4E8D9;
+        width: 10%;
+        text-align: center;
+        border-radius: 60px;
+        margin-top: 25px;
+        padding-top: 8px;
+    }
+    
+    @media(max-width:500px) {
+        .text4 {
+            display: block;
+        }
+        .text5 {
+            font-size: 15px;
+            margin-left: -172px;
+            width: 43%;
+            background-color: #376B44;
+            margin-top: 23px;
+        }
+        .box1 {
+            display: flex;
+            margin-right: 186px;
+            justify-content: space-between;
+        }
+        .bos2 h1 {
+            margin-top: -30px;
+            margin-left: 30px;
+        }
+        .text6 {
+            font-size: 13px;
+            margin-left: 36px;
+            width: 42%;
+            background-color: #D4E8D9;
+        }
+        .bos2 {
+            margin-top: -200px;
+        }
+    }
+    
+    .bos4 {
+        width: 29%;
+        padding-left: 30px;
+        background-color: #E1EDE6;
+    }
+    
+    .bos4 button {
+        width: 280px;
+        height: 50px;
+        font-size: 20px;
+        color: #598D66;
+        margin-bottom: 30px;
+    }
+    
+    .bos3 {
+        display: flex;
+        width: 95%;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .bos5 img {
+        width: 321px;
+    }
+    
+    .bos5 {
+        width: 30%;
+        padding-left: 21px;
+        background-color: #E1EDE6;
+    }
+    
+    .bos5 button {
+        width: 280px;
+        height: 50px;
+        font-size: 20px;
+        color: #598D66;
+    }
+    
+    @media(max-width: 500px) {
+        .bos3 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .bos4 {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .bos5 {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    
+    .bos6 {
+        background-image: url(./pic_background.endl.png);
+        height: 572px;
+        color: white;
+        margin-top: 50px;
+    }
+    
+    .bos7 {
+        display: flex;
+        width: 43%;
+        margin-left: 90px;
+        padding-top: 100px;
+    }
+    
+    .bos7 img {
+        width: 70px;
+        height: 80px;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    
+    .bos8 {
+        width: 40%;
+        margin-left: 110px;
+    }
+    
+    .bos8 button {
+        width: 280px;
+        height: 50px;
+        font-size: 20px;
+        background-color: #EEDB6D;
+        margin-top: 40px;
+    }
+    
+    @media(max-width: 500px) {
+        .bos6 {
+            width: 98%;
+            margin: auto;
+            margin-top: 25px;
+        }
+        .bos8 {
+            width: 70%;
+        }
+        .bos8 button {
+            margin-top: 3px;
+        }
+        .bos7 {
+            width: 71%;
+        }
+        .boss4 {
+            flex-wrap: wrap;
+        }
+        .bosss1 {
+            flex-wrap: wrap;
+            width: 79%;
+        }
+        .bosss {
+            flex-wrap: wrap;
+        }
+    }
+    
+    .boss4 {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 55px;
+    }
+    
+    .boss1 img {
+        width: 300px;
+    }
+    
+    .boss2 {
+        width: 55%;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    
+    .boss2 img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .bosss {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 9%;
+        align-items: center;
+        margin-left: 120px;
+        color: #598D66;
+    }
+    
+    .bosss img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .text7 {
+        width: 15%;
+        margin-left: 124px;
+    }
+    
+    .text8 h5 {
+        color: darkturquoise;
+    }
+    
+    .bosss1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 72px;
+    }
+    
+    .text9 {
+        width: 15%;
+        margin-left: 120px;
+        margin-top: -130px;
+    }

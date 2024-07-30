@@ -1,0 +1,255 @@
+.bos {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+.m {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.me {
+    width: 0;
+}
+
+.box1 {
+    /* width: 20px;
+    height: 20px; */
+    display: flex;
+}
+
+.box2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 460px;
+}
+
+.m img {
+    width: 20px;
+    height: 20px;
+}
+
+.box1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.m2 {
+    width: 20px;
+    height: 20px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.bos1 {
+    display: flex;
+    width: 83%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.text2 {
+    width: 48%;
+    background-color: #2A254B;
+    color: white;
+    padding-left: 20px;
+}
+
+.text2 p {
+    margin-top: 300px;
+}
+
+.text2 button {
+    width: 180px;
+    height: 40px;
+    font-size: 17px;
+    background-color: darkmagenta;
+    margin-top: 30px;
+    color: white;
+}
+
+.bos2 {
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.text4 {
+    width: 20%;
+}
+
+.text5 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.text6 img {
+    width: 240px;
+    height: 300px;
+}
+
+.bos3 {
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.text7 {
+    margin-left: 100px;
+}
+
+.knop {
+    width: 280px;
+    height: 50px;
+    margin-left: 480px;
+    margin-top: 40px;
+}
+
+.text9 img {
+    width: 265px;
+    height: 374px;
+}
+
+.bos4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.knop1 {
+    width: 250px;
+    height: 40px;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.nol1 {
+    margin: auto;
+    text-align: center;
+}
+
+.textt1 {
+    width: 30%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.textt1 button {
+    height: 40px;
+    width: 90px;
+    background-color: #2A254B;
+    color: white;
+}
+
+.textt1 input {
+    width: 200px;
+    height: 33px;
+}
+
+.bos5 {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.nol2 {
+    width: 50%;
+}
+
+.nol3 img {
+    width: 500px;
+}
+
+.nol2 p {
+    margin-top: 45px;
+}
+
+.nol2 button {
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.nol4 {
+    width: 15%;
+}
+
+.bos6 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2A254B;
+    color: white;
+    border-bottom: 1px solid white;
+    height: 300px;
+}
+
+.bos7 {
+    display: flex;
+    background-color: #2A254B;
+    color: white;
+    justify-content: space-between;
+}
+
+.bos7 img {
+    width: 321px;
+    height: 70px;
+}
+
+@media(max-width:500px) {
+    .box1 img {
+        width: 0;
+    }
+    .me {
+        width: 20px;
+        height: 20px;
+        display: flex;
+    }
+    .m img {
+        width: 0;
+    }
+    .text1 p {
+        font-size: 0;
+    }
+    .text3 img {
+        width: 0;
+    }
+    .text2 {
+        width: 95%;
+        margin: auto;
+    }
+    .text2 button {
+        width: 0;
+        font-size: 0;
+        height: 0;
+    }
+    .text2 p {
+        margin-top: -20px;
+    }
+    .kn button {
+        width: 280px;
+        height: 50px;
+        margin-left: 480px;
+        margin-top: 40px;
+    }
+}
+
+.kn button {
+    width: 0;
+}
